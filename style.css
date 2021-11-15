@@ -1,0 +1,77 @@
+body {
+	
+	background-image:url("aaa.jpg");
+}
+
+
+
+
+
+#menu{
+position:fixed;
+left:20%;
+top:10%;
+font-weight:bold;
+padding:10px;
+margin:5px;
+
+
+
+
+}
+#menu li{
+background-color:blueviolet;
+float:left;
+display: block;
+cursor:pointer;
+width:10vw;
+height:40px;
+color:red;
+font-size: 0.8vw;
+border-radius:50px;
+
+text-align:center;
+
+}
+#menu li li{
+	background-color:	saddlebrown;
+float:none;
+
+width:100px;
+
+}
+#menu li li a{
+text-decoration:none;
+color:black;
+
+}
+#menu li ul{
+display:none;
+position:absolute;
+padding:0px;
+
+
+}
+
+#menu li:hover ul{
+display:block;
+color: #9400D3;
+
+}
+#menu li li:hover{
+background-color:aquamarine;
+
+
+}
+a{
+text-decoration:none;
+color:blue;
+
+}
+a:hover{
+text-decoration:none;
+color:grey;
+font-weight:bold;
+font-size:1vw;
+
+}
