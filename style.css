@@ -1,0 +1,57 @@
+body
+{
+text-decoration: blink;
+text-align: center;
+font-family: "Segoe print", "buxton sketch", "Monotype Corsiva", "Nayla";
+font-size: 12pt;
+color: white;
+background-color: #36454F;
+}
+#p1
+    {animation: 9s infinite p1;
+    position: fixed;
+    left:0%;
+    top: 1%;
+    width: 7%;
+    height: 7%;
+}
+@keyframes p1
+{
+0%    {top: 1%; left: 0%;}
+25%    {top: 90%; left: 50%;}
+50%    {top: 50%; left: 95%;}
+75%    {top: 1%; left: 50%;}
+100%    {top: 1%; left: 0%;}
+}
+#p2
+{animation: 15s infinite p2;
+    position: fixed;
+    left: 95%;
+    top: 1%;
+    width: 10%;
+    height: 10%;
+}
+@keyframes p2
+{
+0% {top: 1%; left: 95%;}
+25% {top: 50%; left: -1%; transform:rotate(360deg);}
+50% {top: 90%; left: 50%;}
+75% {top: 50%; left: 90%; transform: rotate(-360deg);}
+100% {top: 1%; left: 90%; transform:rotate(360deg);}
+}
+#p3
+{animation: 20s infinite p1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 7%;
+    height:7%;
+}
+@keyframes p3
+{
+0% {top: 50%; left: 50%;}
+25% {top: 10%; left: 90%; transform:rotate(360deg);}
+50% {top: 90%; left: 50%;}
+75% {top: 1%; left: 10%; transform: rotate(-360deg);}
+100% {top: 50%; left: 50%;}
+}
