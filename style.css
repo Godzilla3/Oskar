@@ -133,5 +133,5 @@ background-image: url('boisko.jpg');
 25% {top: 40%; left: 100%; transform:rotate(360deg);}
 50% {top: 100%; left: 50%;}
 75% {top: 5%; left: 40%; transform: rotate(-360deg);}
-100% {top: 70%; left: 70%;}
+100% {top: 70%; left: 80%;}
 }
