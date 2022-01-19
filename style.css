@@ -1,0 +1,36 @@
+body
+{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 18pt;
+	color: rgb(0, 0, 0);
+	background-image:url(tlooo1.jpg) ;
+	text-align: center;
+	
+}
+
+
+.strona {
+	position:fixed;
+	top: 50%;
+	left:5%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 36pt;
+	color: white;
+	height: auto;
+	width: 90%;
+	border-radius: 50px;
+	text-align: center;
+}
+.stopka {
+	position:fixed;
+	top:90%;
+	left:5%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25pt;	
+	height: auto;
+	width: 90%;
+	background: rgba(85, 82, 82,0.5);
+	border-radius: 50px;
+	text-align: center;
+}
+
