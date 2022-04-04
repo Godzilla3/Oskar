@@ -2,6 +2,6 @@ body {
   width: 800px;
   margin: 0 auto;
   background-color: #FF9500;
-  padding: 0 50px 50px 50px;
-  border: 5px solid green;
+  padding: 0 100px 100px 100px;
+  border: 10px solid green;
 }
